@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 80 80" fill="none">
+  <!-- Glass -->
+  <circle cx="30" cy="30" r="20" stroke="#B08968" stroke-width="6"/>
+  <!-- Handle -->
+  <line x1="45" y1="45" x2="70" y2="70" stroke="#B08968" stroke-width="6" stroke-linecap="round"/>
+</svg>
