@@ -1,13 +1,14 @@
 'use client'
 
-import { Globe } from 'lucide-react'
+import { Globe, Mail, Phone, MapPin } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
 import Link from 'next/link'
 
 export default function Footer() {
   return (
     <footer className="bg-brand-brass text-brand-ink relative border-t border-black/20">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 py-12 sm:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 py-12 sm:grid-cols-4">
+        {/* Company Info */}
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-lg font-semibold">221B Softwares</h3>
           <p className="text-brand-ink/80 max-w-xs text-sm leading-relaxed">
@@ -16,6 +17,7 @@ export default function Footer() {
           </p>
         </div>
 
+        {/* Quick Links */}
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-lg font-semibold">Quick Links</h3>
           <ul className="text-brand-ink/80 space-y-2 text-sm">
@@ -47,6 +49,28 @@ export default function Footer() {
               >
                 Consult Us
               </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className="flex h-full flex-col items-start">
+          <h3 className="mb-4 text-lg font-semibold">Contact</h3>
+          <ul className="text-brand-ink/80 space-y-3 text-sm">
+            <li className="flex items-center gap-2">
+              <Mail className="text-brand-ink h-4 w-4" />
+              221bsoftwares@gmail.com
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone className="text-brand-ink h-4 w-4" />
+              +92 336 8005598
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone className="text-brand-ink h-4 w-4" />
+              +92 300 4171382
+            </li>
+            <li className="flex items-center gap-2">
+              <MapPin className="text-brand-ink h-4 w-4" />
+              Pakistan
             </li>
           </ul>
         </div>
