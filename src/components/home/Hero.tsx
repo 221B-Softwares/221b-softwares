@@ -25,7 +25,7 @@ export default function Hero() {
         case — with curiosity, logic, and flawless execution.
       </p>
 
-      <button className="group border-brand-brass bg-brand-fog text-brand-brass hover:bg-brand-brass hover:text-brand-ink relative mt-10 flex items-center gap-2 overflow-hidden rounded-lg border px-8 py-4 font-semibold shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl">
+      <button className="group border-brand-brass bg-brand-fog text-brand-brass hover:bg-brand-brass hover:text-brand-ink relative mt-10 flex cursor-pointer items-center gap-2 overflow-hidden rounded-lg border px-8 py-4 font-semibold shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl">
         <span>Consult Us</span>
         <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
 

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 import { ArrowLeft, CheckCircle, Send } from 'lucide-react'
 import Link from 'next/link'
 
@@ -59,7 +59,7 @@ export default function ContactForm() {
 
         <Link
           href="/"
-          className="bg-brand-brass text-brand-ink mt-8 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-medium shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
+          className="bg-brand-brass text-brand-ink mt-8 inline-flex cursor-pointer items-center gap-2 rounded-lg px-6 py-3 font-medium shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
         >
           <ArrowLeft className="h-5 w-5" />
 
@@ -126,7 +126,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={loading}
-        className="group bg-brand-brass text-brand-ink relative flex w-full items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
+        className="group bg-brand-brass text-brand-ink relative flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
       >
         {loading ? 'Sending...' : 'Send Message'}
         <Send className="h-4 w-4 transition-transform group-hover:translate-x-1" />
