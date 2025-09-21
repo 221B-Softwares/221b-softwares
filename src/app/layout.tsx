@@ -15,6 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: '221B Softwares',
   description: 'Solving your digital mysteries with modern software solutions.',
+  keywords: [
+    '221B Softwares',
+    'Web Development',
+    'AI Integrations',
+    'Mobile Apps',
+    'DevOps',
+  ],
+  authors: [{ name: '221B Softwares Team' }],
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',
@@ -28,7 +36,7 @@ export const metadata: Metadata = {
     siteName: '221B Softwares',
     images: [
       {
-        url: '/logo.svg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: '221B Softwares Logo',
@@ -36,13 +44,6 @@ export const metadata: Metadata = {
     ],
     locale: 'en_US',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: '221B Softwares',
-    description:
-      'Solving your digital mysteries with modern software solutions.',
-    images: ['/logo.svg'],
   },
 }
 
