@@ -20,6 +20,30 @@ export const metadata: Metadata = {
     shortcut: '/favicon.svg',
     apple: '/favicon.svg',
   },
+  openGraph: {
+    title: '221B Softwares',
+    description:
+      'Solving your digital mysteries with modern software solutions.',
+    url: 'https://www.221bsoftwares.com',
+    siteName: '221B Softwares',
+    images: [
+      {
+        url: '/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: '221B Softwares Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '221B Softwares',
+    description:
+      'Solving your digital mysteries with modern software solutions.',
+    images: ['/logo.svg'],
+  },
 }
 
 export default function RootLayout({
