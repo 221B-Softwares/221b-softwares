@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.221bsoftwares.com'),
   title: '221B Softwares',
   description: 'Solving your digital mysteries with modern software solutions.',
   keywords: [

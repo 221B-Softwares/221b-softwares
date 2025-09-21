@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from 'react'
 import { Users, FolderKanban, Cpu } from 'lucide-react'
 
 const stats = [
-  { number: 12, suffix: '+', label: 'Clients', icon: Users },
-  { number: 20, suffix: '+', label: 'Projects', icon: FolderKanban },
+  { number: 120, suffix: '+', label: 'Clients', icon: Users },
+  { number: 350, suffix: '+', label: 'Projects', icon: FolderKanban },
   { number: 20, suffix: '+', label: 'Technologies', icon: Cpu },
 ]
 

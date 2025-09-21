@@ -7,20 +7,40 @@ import { Quote, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const testimonials = [
   {
-    text: 'The detectives at 221B solved our tech case in no time!',
-    author: 'Client A',
+    text: 'I had a fantastic experience working with Kashif Khan on my mobile app development project. His delivery not only met but exceeded my expectations, and his cooperative attitude and quick responsiveness made the collaboration smooth and efficient. I highly recommend Kashif for his exceptional skills and professionalism in app development. Looking forward to working with him in the future.',
+    author: 'tomdicamillo',
   },
   {
-    text: 'Brilliant problem solvers with modern execution.',
-    author: 'Client B',
+    text: `Outstanding experience. I had 5 other freelancers working on this challenging project and noone was able to deliver, while Kashif did it within few days. High attention to detail and very fast. I could only recommend him; you just better hope that he will have time to take your project. I'm working with freelancers for over 12 years and never had just a great experience. He's in his own league. Thumb up!`,
+    author: 'm20233',
   },
   {
-    text: 'They brought clarity to our most complex challenges.',
-    author: 'Client C',
+    text: 'I had the pleasure of working with Kashif Khan, and I must say he is a highly skilled backend developer. He delivered excellent results for our project. Kashif developed a mobile APP that exceeded our expectations. He is professional, reliable, and communicates effectively throughout the process. I highly recommend him for any backend development projects. Great job, Kashif!',
+    author: 'bytekbiz',
   },
   {
-    text: '221B turned our messy system into a masterpiece.',
-    author: 'Client D',
+    text: 'Kashif was an absolute pleasure to work with—POLITE, cooperative, and always willing to go the extra mile! His professionalism in delivering top-notch software development work was truly impressive. 🙌',
+    author: 'bhworksagency',
+  },
+  {
+    text: 'Kashif Khan truly exceeded my expectations with his code expertise and professionalism. Working with him was a breeze thanks to his prompt delivery, language fluency, and deep understanding. Highly recommend! 👍',
+    author: 'liker1231',
+  },
+  {
+    text: `He’s highly professional and takes the time to confirm every detail before starting the work, ensuring we get exactly what we need. I really appreciate his excellent communication skills and the thoughtful suggestions he offers from his own perspective. He even exceeded our expectations by designing solutions that were better than what we initially planned. Outstanding work—looking forward to collaborating with him again in the future!`,
+    author: 'sebastiankreen',
+  },
+  {
+    text: 'Went above and beyond in helping me create an API integration.',
+    author: 'theloganwoods',
+  },
+  {
+    text: 'Kashif did a wonderful job with the task at hand, doing it quickly and efficiently',
+    author: 'jaykhemchandani',
+  },
+  {
+    text: `Great work again 👏 couldn't find any fault in the end. as always collaboration and coming together allows for success, if there are sometimes bugs we can work through them until it's completely correct which I like`,
+    author: 'lewisstrawbr929',
   },
 ]
 

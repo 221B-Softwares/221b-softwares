@@ -1,11 +1,13 @@
 'use client'
 
 import { useState } from 'react'
+import emailjs from 'emailjs-com'
 import { ArrowLeft, CheckCircle, Send } from 'lucide-react'
 import Link from 'next/link'
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
+  const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
   const handleChange = (
@@ -16,8 +18,27 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // later integrate with backend/email API
-    setSubmitted(true)
+    setLoading(true)
+
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+      )
+      .then(() => {
+        setSubmitted(true)
+        setLoading(false)
+      })
+      .catch((err) => {
+        console.error(err)
+        setLoading(false)
+      })
   }
 
   if (submitted) {
@@ -104,9 +125,10 @@ export default function ContactForm() {
 
       <button
         type="submit"
+        disabled={loading}
         className="group bg-brand-brass text-brand-ink relative flex w-full items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
       >
-        Send Message
+        {loading ? 'Sending...' : 'Send Message'}
         <Send className="h-4 w-4 transition-transform group-hover:translate-x-1" />
       </button>
     </form>
