@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Send } from 'lucide-react'
+import { ArrowLeft, CheckCircle, Send } from 'lucide-react'
+import Link from 'next/link'
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -21,11 +22,28 @@ export default function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="flex flex-col items-center justify-center text-center">
-        <h2 className="text-brand-brass text-2xl font-bold">Thank you!</h2>
-        <p className="text-brand-parchment/80 mt-2 text-sm">
-          Your message has been received. We’ll get back to you shortly.
+      <div className="border-brand-brass/30 flex flex-col items-center justify-center rounded-xl border bg-white/5 px-6 py-12 text-center shadow-lg backdrop-blur-md">
+        <CheckCircle
+          className="text-brand-brass mb-6 h-16 w-16"
+          strokeWidth={2.5}
+        />
+
+        <h2 className="text-brand-brass text-3xl font-extrabold tracking-tight">
+          Thank you!
+        </h2>
+
+        <p className="text-brand-parchment/80 mt-3 max-w-sm text-sm sm:text-base">
+          Your message has been received. Our team will get back to you shortly.
         </p>
+
+        <Link
+          href="/"
+          className="bg-brand-brass text-brand-ink mt-8 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-medium shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
+        >
+          <ArrowLeft className="h-5 w-5" />
+
+          <span>Back to Home</span>
+        </Link>
       </div>
     )
   }

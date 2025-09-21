@@ -1,6 +1,7 @@
 import Navbar from '@/components/shared/Navbar'
 import Footer from '@/components/shared/Footer'
 import Link from 'next/link'
+import { ArrowLeft } from 'lucide-react'
 
 export default function NotFound() {
   return (
@@ -20,9 +21,11 @@ export default function NotFound() {
 
           <Link
             href="/"
-            className="bg-brand-brass text-brand-ink inline-flex items-center gap-2 rounded-lg px-6 py-3 font-medium shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
+            className="bg-brand-brass text-brand-ink mt-8 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-medium shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
           >
-            Back to Home →
+            <ArrowLeft className="h-5 w-5" />
+
+            <span>Back to Home</span>
           </Link>
         </div>
       </section>
