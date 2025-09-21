@@ -59,15 +59,30 @@ export default function Footer() {
           <ul className="text-brand-ink/80 space-y-3 text-sm">
             <li className="flex items-center gap-2">
               <Mail className="text-brand-ink h-4 w-4" />
-              221bsoftwares@gmail.com
+              <a
+                href="mailto:221bsoftwares@gmail.com"
+                className="hover:text-brand-parchment transition"
+              >
+                221bsoftwares@gmail.com
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <Phone className="text-brand-ink h-4 w-4" />
-              +92 336 8005598
+              <a
+                href="tel:+923368005598"
+                className="hover:text-brand-parchment transition"
+              >
+                +92 336 8005598
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <Phone className="text-brand-ink h-4 w-4" />
-              +92 300 4171382
+              <a
+                href="tel:+923004171382"
+                className="hover:text-brand-parchment transition"
+              >
+                +92 300 4171382
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <MapPin className="text-brand-ink h-4 w-4" />
