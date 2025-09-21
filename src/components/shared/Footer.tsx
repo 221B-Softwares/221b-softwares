@@ -3,6 +3,7 @@
 import { Globe, Mail, Phone, MapPin } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
 import Link from 'next/link'
+import { SiFiverr } from 'react-icons/si'
 
 export default function Footer() {
   return (
@@ -77,7 +78,23 @@ export default function Footer() {
 
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-lg font-semibold">Connect</h3>
-          <div className="flex">
+          <div className="flex items-center">
+            <a
+              href="https://www.fiverr.com/linskashif"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-ink hover:text-brand-parchment rounded-full p-2 transition hover:scale-110"
+            >
+              <SiFiverr className="h-8 w-8" />
+            </a>
+            <a
+              href="https://www.fiverr.com/huzaifahtariq08"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-ink hover:text-brand-parchment rounded-full p-2 transition hover:scale-110"
+            >
+              <SiFiverr className="h-8 w-8" />
+            </a>
             <a
               href="https://github.com/221B-Softwares"
               target="_blank"
