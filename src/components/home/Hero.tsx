@@ -4,8 +4,8 @@ import { ArrowRight } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="from-brand-ink via-brand-fog text-brand-parchment relative flex min-h-[90vh] flex-col items-center justify-center bg-gradient-to-br to-black px-6 py-20 text-center">
-      <div className="bg-brand-brass/20 absolute top-1/2 left-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full blur-[120px]" />
+    <section className="from-brand-ink via-brand-fog text-brand-parchment relative flex min-h-[90vh] flex-col items-center justify-center overflow-hidden bg-gradient-to-br to-black px-6 py-20 text-center">
+      <div className="bg-brand-brass/20 absolute top-1/2 left-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full blur-[120px]" />
 
       <h1 className="mb-6 text-5xl leading-tight font-extrabold tracking-tight sm:text-6xl">
         Solving{' '}
