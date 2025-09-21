@@ -1,11 +1,11 @@
-# 221B Softwares
+# 🕵️ 221B Softwares
 
 **Solving Digital Mysteries with Precision**  
 We provide tailored solutions in **Web Development, Mobile Apps, AI Integrations, and DevOps** — approaching every project like a case: with curiosity, logic, and flawless execution.
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 First, run the development server:
 
