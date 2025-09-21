@@ -45,6 +45,13 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: '221B Softwares',
+    description:
+      'Solving your digital mysteries with modern software solutions.',
+    images: ['/logo.png'],
+  },
 }
 
 export default function RootLayout({
