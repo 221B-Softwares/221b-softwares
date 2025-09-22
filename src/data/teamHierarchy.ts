@@ -78,7 +78,7 @@ export const teamTree: TeamNode[] = [
           {
             id: '8',
             designation: 'mobile-dev-1',
-            name: 'Eve',
+            name: 'Jawad Zaheer',
             title: 'Mobile Developer',
           },
         ],

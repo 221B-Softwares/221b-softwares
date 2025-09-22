@@ -101,11 +101,11 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: '8',
-    name: 'Eve',
+    name: 'Jawad Zaheer',
     title: 'Mobile Developer',
     bio: 'Mobile app developer crafting cross-platform experiences.',
-    tech: ['react-native', 'expo'],
-    socials: [{ type: 'github', url: 'https://github.com/eve' }],
+    tech: ['react-native', 'expo', 'android', 'ios'],
+    socials: [{ type: 'github', url: 'https://github.com/jawadzaheer' }],
   },
   {
     id: '9',
