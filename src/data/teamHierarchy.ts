@@ -21,20 +21,20 @@ export const teamTree: TeamNode[] = [
         title: 'Frontend Lead',
         children: [
           {
-            id: '4',
+            id: '2',
             designation: 'frontend-dev',
             name: 'Huzaifah Tariq',
             title: 'Frontend Developer',
             photo: '/team/huzaifah.jpg',
           },
           {
-            id: '5',
+            id: '4',
             designation: 'frontend-dev',
             name: 'Ali Taimoor',
             title: 'Frontend Developer',
           },
           {
-            id: '6',
+            id: '5',
             designation: 'frontend-dev',
             name: 'Awais Ali',
             title: 'Frontend Developer',
@@ -42,26 +42,26 @@ export const teamTree: TeamNode[] = [
         ],
       },
       {
-        id: '7',
+        id: '2',
         designation: 'backend-lead',
         name: 'Huzaifah Tariq',
         title: 'Backend/DB Lead',
         photo: '/team/huzaifah.jpg',
         children: [
           {
-            id: '8',
+            id: '1',
             designation: 'backend-dev',
             name: 'Kashif Khan',
             title: 'Backend Developer',
           },
           {
-            id: '9',
+            id: '6',
             designation: 'backend-dev',
             name: 'Areeb Ahmad',
             title: 'Backend Developer',
           },
           {
-            id: '10',
+            id: '7',
             designation: 'backend-dev',
             name: 'Babar Hussain',
             title: 'Backend Developer',
@@ -69,14 +69,14 @@ export const teamTree: TeamNode[] = [
         ],
       },
       {
-        id: '11',
+        id: '2',
         designation: 'mobile-lead',
         name: 'Huzaifah Tariq',
         title: 'Mobile Dev Lead',
         photo: '/team/huzaifah.jpg',
         children: [
           {
-            id: '12',
+            id: '8',
             designation: 'mobile-dev',
             name: 'Eve',
             title: 'Mobile Developer',
@@ -84,13 +84,13 @@ export const teamTree: TeamNode[] = [
         ],
       },
       {
-        id: '13',
+        id: '1',
         designation: 'devops-lead',
         name: 'Kashif Khan',
         title: 'DevOps Lead',
         children: [
           {
-            id: '14',
+            id: '9',
             designation: 'devops',
             name: 'Haseeb Arif',
             title: 'DevOps Specialist',
