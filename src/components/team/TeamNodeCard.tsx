@@ -34,6 +34,10 @@ export default function TeamNodeCard({ member }: { member: TeamNode }) {
 
         <p className="text-brand-brass text-sm font-bold">{member.name}</p>
         <p className="text-brand-parchment/80 text-xs">{member.title}</p>
+
+        <p className="text-brand-parchment/50 mt-2 text-[11px] italic">
+          Click the image to view profile
+        </p>
       </div>
     </div>
   )
