@@ -10,7 +10,7 @@ export const projects: Project[] = [
     tech: ['react', 'tailwind', 'node', 'mysql', 'firebase', 'github'],
     liveUrl: 'https://www.litsee.com/',
     cover: '/projects/litsee.png',
-    detectives: ['2', '1', '3'],
+    detectives: ['2', '1', '3', '9'],
   },
   {
     id: 'p2',
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     iosUrl:
       'https://apps.apple.com/ca/app/xpertstats-betting-tips/id6741042887',
     cover: '/projects/xpertStats.png',
-    detectives: ['2', '1', '3', '8'],
+    detectives: ['2', '1', '3', '8', '9'],
   },
   {
     id: 'p3',
@@ -48,6 +48,29 @@ export const projects: Project[] = [
     tech: ['react', 'next', 'tailwind', 'node', 'mysql', 'github'],
     liveUrl: 'https://minmini.de',
     cover: '/projects/minmini.png',
-    detectives: ['3', '1', '2'],
+    detectives: ['3', '1', '2', '9'],
+  },
+  {
+    id: 'p4',
+    title: 'Breeze Financials',
+    clientId: 'internal',
+    summary:
+      'BreezeFinancials provides professional bookkeeping and fractional CFO services tailored for Toronto small businesses. The platform helps entrepreneurs gain financial clarity, streamline operations, and make data-driven decisions. Transform your finances, transform your business.',
+    tech: ['react', 'tailwind', 'node', 'mysql', 'github', 'aws'],
+    liveUrl: 'https://breezefinancials.com/',
+    cover: '/projects/breezeFinancials.png',
+    detectives: ['2', '3', '1', '9'],
+  },
+  {
+    id: 'p5',
+    title: 'Deutsche GFA – Diet Plan',
+    clientId: 'internal',
+    summary:
+      'A diet plan web application for gyms: after collecting detailed personal data (goals, current state, preferences), the app uses AI to generate customized meal plans, offers meal prep tips, recipes, and shopping lists. Helps users with fat loss, muscle gain, or maintaining healthy eating based on scientific / nutritional analysis.',
+    tech: ['react', 'next', 'tailwind', 'node', 'postgresql', 'github'],
+    liveUrl:
+      'https://ep.deutschegfa.de/?requestor=open_api_demo&customerId=1211440283',
+    cover: '/projects/deutscheGFA.png',
+    detectives: ['4', '3', '1', '2', '9'],
   },
 ]
