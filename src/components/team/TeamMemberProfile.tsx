@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { TeamMember } from '@/types'
-import { Globe } from 'lucide-react'
+import { ArrowLeft, Globe } from 'lucide-react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import TechIcons from './TechIcons'
 import { SiFiverr } from 'react-icons/si'
@@ -88,9 +88,11 @@ export default function TeamMemberProfile({ member }: { member: TeamMember }) {
         <div className="mt-12 flex justify-center">
           <Link
             href="/team"
-            className="bg-brand-brass text-brand-ink rounded-lg px-6 py-3 font-medium shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
+            className="bg-brand-brass text-brand-ink inline-flex items-center gap-2 rounded-lg px-6 py-3 font-medium shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
           >
-            ← Back to Team
+            <ArrowLeft className="h-5 w-5" />
+
+            <span>Back to Team</span>
           </Link>
         </div>
       </div>
