@@ -11,7 +11,7 @@ import TechIcons from '../shared/TechIcons'
 export default function TeamMemberProfile({ member }: { member: TeamMember }) {
   return (
     <section className="from-brand-ink via-brand-fog text-brand-parchment flex flex-1 items-center justify-center bg-gradient-to-br to-black px-6 py-40">
-      <div className="mx-auto max-w-5xl rounded-2xl border border-white/10 bg-white/5 p-10 shadow-lg backdrop-blur-md">
+      <div className="mx-auto max-w-5xl rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg backdrop-blur-md">
         <div className="flex flex-col items-center gap-6 text-center md:flex-row md:items-center md:justify-between md:text-left">
           <div className="flex flex-col items-center md:flex-row md:items-center md:gap-6">
             {member.photo ? (
