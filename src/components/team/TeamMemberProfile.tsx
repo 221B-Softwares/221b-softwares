@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { TeamMember } from '@/types'
 import { ArrowLeft, Globe } from 'lucide-react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import TechIcons from './TechIcons'
 import { SiFiverr } from 'react-icons/si'
+import TechIcons from '../shared/TechIcons'
 
 export default function TeamMemberProfile({ member }: { member: TeamMember }) {
   return (

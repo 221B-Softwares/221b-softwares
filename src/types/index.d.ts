@@ -35,7 +35,10 @@ export interface Project {
   tech: Tech[]
   github?: string
   liveUrl?: string
+  androidUrl?: string
+  iosUrl?: string
   cover?: string
+  detectives?: string[]
 }
 
 export interface Social {

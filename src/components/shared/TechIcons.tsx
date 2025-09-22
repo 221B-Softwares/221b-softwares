@@ -46,7 +46,7 @@ const techMap: Record<Tech, { label: string; icon: React.ElementType }> = {
 
 export default function TechIcons({ tech }: { tech: Tech[] }) {
   return (
-    <div className="mt-10 grid grid-cols-3 gap-4 sm:grid-cols-4 sm:gap-6 md:grid-cols-5">
+    <div className="mt-4 grid grid-cols-3 gap-4 sm:grid-cols-4 sm:gap-6 md:grid-cols-5">
       {tech.map((t) => {
         const item = techMap[t]
         if (!item) return null
