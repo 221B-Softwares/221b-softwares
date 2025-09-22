@@ -17,7 +17,7 @@ import {
   SiAndroid,
   SiApple,
 } from 'react-icons/si'
-import { FaJava, FaAws, FaNode, FaGithub } from 'react-icons/fa'
+import { FaJava, FaAws, FaNode, FaGithub, FaSpider } from 'react-icons/fa'
 import { TbBrandReactNative } from 'react-icons/tb'
 import { Tech } from '@/types'
 
@@ -42,6 +42,7 @@ const techMap: Record<Tech, { label: string; icon: React.ElementType }> = {
   'google-cloud': { label: 'Google Cloud', icon: SiGooglecloud },
   docker: { label: 'Docker', icon: SiDocker },
   github: { label: 'GitHub', icon: FaGithub },
+  'web-scraping': { label: 'Web Scraping', icon: FaSpider },
 }
 
 export default function TechIcons({ tech }: { tech: Tech[] }) {

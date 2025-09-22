@@ -19,6 +19,7 @@ export type Tech =
   | 'google-cloud'
   | 'docker'
   | 'github'
+  | 'web-scraping'
 
 export interface Client {
   id: string

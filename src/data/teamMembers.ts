@@ -110,6 +110,7 @@ export const teamMembers: TeamMember[] = [
       'redis',
       'docker',
       'github',
+      'web-scraping',
     ],
     socials: [
       { type: 'github', url: 'https://github.com/aareeb15' },
@@ -133,6 +134,7 @@ export const teamMembers: TeamMember[] = [
       'redis',
       'docker',
       'github',
+      'web-scraping',
     ],
     socials: [
       { type: 'github', url: 'https://github.com/babarhussain09' },
