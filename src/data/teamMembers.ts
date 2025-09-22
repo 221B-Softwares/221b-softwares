@@ -5,6 +5,7 @@ export const teamMembers: TeamMember[] = [
     id: '1',
     name: 'Kashif Khan',
     title: 'Chief Executive Officer',
+    photo: '/team/kashif.jpeg',
     bio: 'Founder and CEO of 221B Softwares, leading strategy and growth.',
     tech: [
       'node',
@@ -60,6 +61,7 @@ export const teamMembers: TeamMember[] = [
     id: '3',
     name: 'Mustaqeem Tariq',
     title: 'Frontend Lead',
+    photo: '/team/mustaqeem.jpeg',
     bio: 'Frontend team lead specializing in React and modern UI frameworks.',
     tech: ['react', 'next', 'tailwind', 'javascript', 'github'],
     socials: [
@@ -71,6 +73,7 @@ export const teamMembers: TeamMember[] = [
     id: '4',
     name: 'Ali Taimoor',
     title: 'Frontend Developer',
+    photo: '/team/ali.jpeg',
     bio: 'Frontend developer passionate about responsive design.',
     tech: ['react', 'next', 'tailwind', 'javascript', 'github'],
     socials: [
@@ -85,6 +88,7 @@ export const teamMembers: TeamMember[] = [
     id: '5',
     name: 'Awais Ali',
     title: 'Frontend Developer',
+    photo: '/team/awais.png',
     bio: 'Frontend developer focused on performance and accessibility.',
     tech: ['react', 'next', 'tailwind', 'javascript', 'github'],
     socials: [{ type: 'github', url: 'https://github.com/awais1379' }],

@@ -6,6 +6,7 @@ export const teamTree: TeamNode[] = [
     designation: 'ceo',
     name: 'Kashif Khan',
     title: 'Chief Executive Officer',
+    photo: '/team/kashif.jpeg',
   },
   {
     id: '2',
@@ -40,6 +41,7 @@ export const teamTree: TeamNode[] = [
             designation: 'frontend-dev-3',
             name: 'Awais Ali',
             title: 'Frontend Developer',
+            photo: '/team/awais.png',
           },
         ],
       },
@@ -55,6 +57,7 @@ export const teamTree: TeamNode[] = [
             designation: 'backend-dev-1',
             name: 'Kashif Khan',
             title: 'Backend Developer',
+            photo: '/team/kashif.jpeg',
           },
           {
             id: '6',
@@ -93,6 +96,7 @@ export const teamTree: TeamNode[] = [
         designation: 'devops-lead',
         name: 'Kashif Khan',
         title: 'DevOps Lead',
+        photo: '/team/kashif.jpeg',
         children: [
           {
             id: '9',
