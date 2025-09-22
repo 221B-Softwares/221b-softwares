@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: 'XpertStats – Sports Analytics',
     clientId: 'internal',
     summary:
-      'XpertStats is a sports-betting analytics and tips ecosystem built for serious fans and bettors. It delivers real-time odds calculations, predictive insights, and customizable strategies using AI-powered models. Integrated with RevenueCat, it offers premium features and subscription management across platforms. Whether casual or professional, users gain a data-driven edge in the fast-moving sports market.',
+      'XpertStats is a sports analytics and tips ecosystem built for serious fans. It delivers real-time odds calculations, predictive insights, and customizable strategies using AI-powered models. Integrated with RevenueCat, it offers premium features and subscription management across platforms. Whether casual or professional, users gain a data-driven edge in the fast-moving sports market.',
     tech: [
       'react',
       'next',
