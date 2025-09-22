@@ -1,11 +1,24 @@
 export type Tech =
   | 'react'
   | 'next'
-  | 'node'
   | 'tailwind'
-  | 'python'
+  | 'node'
   | 'react-native'
   | 'expo'
+  | 'android'
+  | 'ios'
+  | 'javascript'
+  | 'python'
+  | 'java'
+  | 'mysql'
+  | 'postgresql'
+  | 'mongodb'
+  | 'redis'
+  | 'firebase'
+  | 'aws'
+  | 'google-cloud'
+  | 'docker'
+  | 'github'
 
 export interface Client {
   id: string
@@ -26,7 +39,7 @@ export interface Project {
 }
 
 export interface Social {
-  type: 'github' | 'linkedin' | 'x' | 'website'
+  type: 'fiverr' | 'github' | 'linkedin' | 'website'
   url: string
 }
 
@@ -39,6 +52,15 @@ export interface TeamMember {
   tech: Tech[]
   socials?: Social[]
   reportsTo?: string
+}
+
+export interface TeamNode {
+  id: string
+  designation: string
+  name: string
+  title: string
+  photo?: string
+  children?: TeamNode[]
 }
 
 export interface Testimonial {

@@ -9,7 +9,6 @@ export default function Footer() {
   return (
     <footer className="bg-brand-brass text-brand-ink relative border-t border-black/20">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 py-12 sm:grid-cols-4">
-        {/* Company Info */}
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-lg font-semibold">221B Softwares</h3>
           <p className="text-brand-ink/80 max-w-xs text-sm leading-relaxed">
@@ -18,7 +17,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-lg font-semibold">Quick Links</h3>
           <ul className="text-brand-ink/80 space-y-2 text-sm">
