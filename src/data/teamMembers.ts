@@ -29,7 +29,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Huzaifah Tariq',
     title: 'Chief Technology Officer',
     photo: '/team/huzaifah.jpg',
-    bio: 'CTO driving technology and innovation at 221B Softwares.',
+    bio: 'Founder and CTO, driving technology and innovation at 221B Softwares.',
     tech: [
       'react',
       'next',
