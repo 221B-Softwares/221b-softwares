@@ -16,9 +16,6 @@ const config: Config = {
           fog: '#1F2430', // mist
         },
       },
-      animation: {
-        'pulse-slow': 'pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-      },
     },
   },
   plugins: [],

@@ -14,8 +14,6 @@ export default function TeamNodeCard({ member }: { member: TeamNode }) {
           onClick={(e) => e.stopPropagation()}
         >
           <div className="group relative mb-3 h-20 w-20 cursor-pointer">
-            <span className="border-brand-brass animate-pulse-slow absolute inset-0 rounded-full border-2 transition duration-300 group-hover:shadow-[0_0_15px_rgba(212,175,55,0.8)]" />
-
             {member.photo ? (
               <div className="border-brand-brass relative z-10 h-full w-full overflow-hidden rounded-full border">
                 <Image

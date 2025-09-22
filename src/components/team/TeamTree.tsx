@@ -15,16 +15,16 @@ export default function TeamTree() {
   const cto = teamTree.find((n) => n.designation === 'cto')!
   const leads = cto.children || []
 
-  const toggleTeam = (id: string) => {
-    if (expandedTeam === id) {
+  const toggleTeam = (designation: string) => {
+    if (expandedTeam === designation) {
       setExpandedTeam(null)
       setPendingTeam(null)
     } else {
       if (expandedTeam) {
-        setPendingTeam(id)
+        setPendingTeam(designation)
         setExpandedTeam(null)
       } else {
-        setExpandedTeam(id)
+        setExpandedTeam(designation)
       }
     }
   }
@@ -49,12 +49,12 @@ export default function TeamTree() {
 
           <div className="flex flex-wrap justify-center gap-16">
             {leads.map((lead, idx) => {
-              const isExpanded = expandedTeam === lead.id
+              const isExpanded = expandedTeam === lead.designation
               return (
                 <div
                   key={idx}
                   className="group flex cursor-pointer flex-col items-center"
-                  onClick={() => toggleTeam(lead.id)}
+                  onClick={() => toggleTeam(lead.designation)}
                 >
                   <div className="relative flex flex-col items-center">
                     <TeamNodeCard member={lead} />
@@ -79,7 +79,7 @@ export default function TeamTree() {
                   >
                     {isExpanded && lead.children && (
                       <motion.div
-                        key={lead.id}
+                        key={lead.designation}
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
@@ -113,10 +113,10 @@ export default function TeamTree() {
             <div key={idx} className="w-full">
               <div
                 className="flex cursor-pointer items-center justify-between"
-                onClick={() => toggleTeam(lead.id)}
+                onClick={() => toggleTeam(lead.designation)}
               >
                 <TeamNodeCard member={lead} />
-                {expandedTeam === lead.id ? (
+                {expandedTeam === lead.designation ? (
                   <ChevronDown className="text-brand-brass ml-2 h-6 w-6" />
                 ) : (
                   <ChevronRight className="text-brand-brass ml-2 h-6 w-6" />
@@ -124,9 +124,9 @@ export default function TeamTree() {
               </div>
 
               <AnimatePresence>
-                {expandedTeam === lead.id && lead.children && (
+                {expandedTeam === lead.designation && lead.children && (
                   <motion.div
-                    key={lead.id}
+                    key={lead.designation}
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: 'auto' }}
                     exit={{ opacity: 0, height: 0 }}

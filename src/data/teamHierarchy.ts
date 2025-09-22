@@ -22,20 +22,20 @@ export const teamTree: TeamNode[] = [
         children: [
           {
             id: '2',
-            designation: 'frontend-dev',
+            designation: 'frontend-dev-1',
             name: 'Huzaifah Tariq',
             title: 'Frontend Developer',
             photo: '/team/huzaifah.jpg',
           },
           {
             id: '4',
-            designation: 'frontend-dev',
+            designation: 'frontend-dev-2',
             name: 'Ali Taimoor',
             title: 'Frontend Developer',
           },
           {
             id: '5',
-            designation: 'frontend-dev',
+            designation: 'frontend-dev-3',
             name: 'Awais Ali',
             title: 'Frontend Developer',
           },
@@ -50,19 +50,19 @@ export const teamTree: TeamNode[] = [
         children: [
           {
             id: '1',
-            designation: 'backend-dev',
+            designation: 'backend-dev-1',
             name: 'Kashif Khan',
             title: 'Backend Developer',
           },
           {
             id: '6',
-            designation: 'backend-dev',
+            designation: 'backend-dev-2',
             name: 'Areeb Ahmad',
             title: 'Backend Developer',
           },
           {
             id: '7',
-            designation: 'backend-dev',
+            designation: 'backend-dev-3',
             name: 'Babar Hussain',
             title: 'Backend Developer',
           },
@@ -77,7 +77,7 @@ export const teamTree: TeamNode[] = [
         children: [
           {
             id: '8',
-            designation: 'mobile-dev',
+            designation: 'mobile-dev-1',
             name: 'Eve',
             title: 'Mobile Developer',
           },
@@ -91,7 +91,7 @@ export const teamTree: TeamNode[] = [
         children: [
           {
             id: '9',
-            designation: 'devops',
+            designation: 'devops-1',
             name: 'Haseeb Arif',
             title: 'DevOps Specialist',
           },
