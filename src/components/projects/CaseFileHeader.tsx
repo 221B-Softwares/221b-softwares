@@ -21,7 +21,7 @@ export default function CaseFileHeader({
         {project.summary}
       </p>
 
-      <div className="flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-6">
         {project.github && (
           <Link
             href={project.github}
@@ -64,7 +64,7 @@ export default function CaseFileHeader({
         )}
       </div>
 
-      <div className="text-brand-brass mt-2 flex items-center gap-2 text-sm font-semibold">
+      <div className="text-brand-brass mt-4 flex items-center gap-2 text-sm font-semibold">
         {open ? (
           <>
             Close File <ChevronUp className="h-4 w-4" />
