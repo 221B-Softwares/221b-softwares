@@ -30,7 +30,7 @@ export default function TeamTree() {
   }
 
   return (
-    <section className="from-brand-ink via-brand-fog text-brand-parchment flex flex-1 flex-col items-center bg-gradient-to-br to-black px-4 py-20 md:px-6 md:py-40">
+    <section className="from-brand-ink via-brand-fog text-brand-parchment flex flex-1 flex-col items-center bg-gradient-to-br to-black px-6 py-40">
       <div className="mx-auto w-full max-w-7xl text-center">
         <h1 className="text-brand-brass mb-6 text-4xl font-extrabold md:text-5xl">
           Meet Our Detectives
