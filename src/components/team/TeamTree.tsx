@@ -48,11 +48,11 @@ export default function TeamTree() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-16">
-            {leads.map((lead) => {
+            {leads.map((lead, idx) => {
               const isExpanded = expandedTeam === lead.id
               return (
                 <div
-                  key={lead.id}
+                  key={idx}
                   className="group flex cursor-pointer flex-col items-center"
                   onClick={() => toggleTeam(lead.id)}
                 >
@@ -87,9 +87,9 @@ export default function TeamTree() {
                         className="overflow-hidden"
                       >
                         <div className="relative mt-6 flex flex-wrap justify-center gap-12">
-                          {lead.children.map((member) => (
+                          {lead.children.map((member, idx) => (
                             <div
-                              key={member.id}
+                              key={idx}
                               className="relative flex flex-col items-center"
                             >
                               <TeamNodeCard member={member as TeamNode} />
@@ -109,8 +109,8 @@ export default function TeamTree() {
           <TeamNodeCard member={ceo} />
           <TeamNodeCard member={cto} />
 
-          {leads.map((lead) => (
-            <div key={lead.id} className="w-full">
+          {leads.map((lead, idx) => (
+            <div key={idx} className="w-full">
               <div
                 className="flex cursor-pointer items-center justify-between"
                 onClick={() => toggleTeam(lead.id)}
@@ -133,11 +133,8 @@ export default function TeamTree() {
                     transition={{ duration: 0.3 }}
                     className="mt-4 space-y-4"
                   >
-                    {lead.children.map((member) => (
-                      <TeamNodeCard
-                        key={member.id}
-                        member={member as TeamNode}
-                      />
+                    {lead.children.map((member, idx) => (
+                      <TeamNodeCard key={idx} member={member as TeamNode} />
                     ))}
                   </motion.div>
                 )}

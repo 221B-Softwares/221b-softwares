@@ -112,7 +112,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Haseeb Arif',
     title: 'DevOps Specialist',
     bio: 'DevOps engineer ensuring smooth deployments and CI/CD pipelines.',
-    tech: ['node', 'python'],
+    tech: ['aws', 'google-cloud', 'docker', 'github'],
     socials: [{ type: 'linkedin', url: 'https://linkedin.com/in/haseeb' }],
   },
 ]
