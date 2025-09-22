@@ -52,8 +52,8 @@ export const teamMembers: TeamMember[] = [
     ],
     socials: [
       { type: 'fiverr', url: 'https://www.fiverr.com/huzaifahtariq08' },
-      { type: 'linkedin', url: 'https://www.linkedin.com/in/huzaifahtariq/' },
       { type: 'github', url: 'https://github.com/huzaifahtariq28' },
+      { type: 'linkedin', url: 'https://www.linkedin.com/in/huzaifahtariq/' },
     ],
   },
   {
@@ -61,8 +61,11 @@ export const teamMembers: TeamMember[] = [
     name: 'Mustaqeem Tariq',
     title: 'Frontend Lead',
     bio: 'Frontend team lead specializing in React and modern UI frameworks.',
-    tech: ['react', 'next', 'tailwind'],
-    socials: [{ type: 'linkedin', url: 'https://linkedin.com/in/mustaqeem' }],
+    tech: ['react', 'next', 'tailwind', 'javascript', 'github'],
+    socials: [
+      { type: 'github', url: 'https://github.com/mustaqeemtariq' },
+      { type: 'linkedin', url: 'https://www.linkedin.com/in/mustaqeem-tariq/' },
+    ],
   },
   {
     id: '4',
