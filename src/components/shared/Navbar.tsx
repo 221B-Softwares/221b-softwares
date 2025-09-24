@@ -22,10 +22,10 @@ export default function Navbar() {
       <div className="flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image
-            src="/logo.svg"
+            src="/logo-primary.svg"
             alt="221B Softwares Logo"
-            width={120}
-            height={36}
+            width={60}
+            height={60}
             priority
             className="drop-shadow-md"
           />

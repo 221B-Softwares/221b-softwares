@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: '221B Softwares Team' }],
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: '/logo-primary.svg',
+    shortcut: '/logo-primary.svg',
+    apple: '/logo-primary.svg',
   },
   openGraph: {
     title: '221B Softwares',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: '221B Softwares',
     images: [
       {
-        url: '/logo.png',
+        url: '/logo-primary.png',
         width: 1200,
         height: 630,
         alt: '221B Softwares Logo',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: '221B Softwares',
     description:
       'Solving your digital mysteries with modern software solutions.',
-    images: ['/logo.png'],
+    images: ['/logo-primary.png'],
   },
 }
 
