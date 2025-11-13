@@ -5,7 +5,7 @@ export const teamTree: TeamNode[] = [
     id: '1',
     designation: 'ceo',
     name: 'Kashif Khan',
-    title: 'Chief Executive Officer',
+    title: 'Marketing Lead',
     photo: '/team/kashif.jpeg',
   },
   {

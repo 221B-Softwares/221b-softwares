@@ -7,23 +7,23 @@ import { Quote, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const testimonials = [
   {
-    text: 'I had a fantastic experience working with Kashif Khan on my mobile app development project. His delivery not only met but exceeded my expectations, and his cooperative attitude and quick responsiveness made the collaboration smooth and efficient. I highly recommend Kashif for his exceptional skills and professionalism in app development. Looking forward to working with him in the future.',
+    text: 'I had a fantastic experience working with Huzaifah Tariq on my mobile app development project. His delivery not only met but exceeded my expectations, and his cooperative attitude and quick responsiveness made the collaboration smooth and efficient. I highly recommend Huzaifah for his exceptional skills and professionalism in app development. Looking forward to working with him in the future.',
     author: 'tomdicamillo',
   },
   {
-    text: `Outstanding experience. I had 5 other freelancers working on this challenging project and noone was able to deliver, while Kashif did it within few days. High attention to detail and very fast. I could only recommend him; you just better hope that he will have time to take your project. I'm working with freelancers for over 12 years and never had just a great experience. He's in his own league. Thumb up!`,
+    text: `Outstanding experience. I had 5 other freelancers working on this challenging project and noone was able to deliver, while Huzaifah did it within few days. High attention to detail and very fast. I could only recommend him; you just better hope that he will have time to take your project. I'm working with freelancers for over 12 years and never had just a great experience. He's in his own league. Thumb up!`,
     author: 'm20233',
   },
   {
-    text: 'I had the pleasure of working with Kashif Khan, and I must say he is a highly skilled backend developer. He delivered excellent results for our project. Kashif developed a mobile APP that exceeded our expectations. He is professional, reliable, and communicates effectively throughout the process. I highly recommend him for any backend development projects. Great job, Kashif!',
+    text: 'I had the pleasure of working with Huzaifah Tariq, and I must say he is a highly skilled backend developer. He delivered excellent results for our project. Huzaifah developed a mobile APP that exceeded our expectations. He is professional, reliable, and communicates effectively throughout the process. I highly recommend him for any backend development projects. Great job, Huzaifah!',
     author: 'bytekbiz',
   },
   {
-    text: 'Kashif was an absolute pleasure to work with—POLITE, cooperative, and always willing to go the extra mile! His professionalism in delivering top-notch software development work was truly impressive. 🙌',
+    text: 'Huzaifah was an absolute pleasure to work with—POLITE, cooperative, and always willing to go the extra mile! His professionalism in delivering top-notch software development work was truly impressive. 🙌',
     author: 'bhworksagency',
   },
   {
-    text: 'Kashif Khan truly exceeded my expectations with his code expertise and professionalism. Working with him was a breeze thanks to his prompt delivery, language fluency, and deep understanding. Highly recommend! 👍',
+    text: 'Huzaifah Tariq truly exceeded my expectations with his code expertise and professionalism. Working with him was a breeze thanks to his prompt delivery, language fluency, and deep understanding. Highly recommend! 👍',
     author: 'liker1231',
   },
   {
@@ -35,7 +35,7 @@ const testimonials = [
     author: 'theloganwoods',
   },
   {
-    text: 'Kashif did a wonderful job with the task at hand, doing it quickly and efficiently',
+    text: 'Huzaifah did a wonderful job with the task at hand, doing it quickly and efficiently',
     author: 'jaykhemchandani',
   },
   {

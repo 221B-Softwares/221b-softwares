@@ -4,9 +4,9 @@ export const teamMembers: TeamMember[] = [
   {
     id: '1',
     name: 'Kashif Khan',
-    title: 'Chief Executive Officer',
+    title: 'Marketing Lead',
     photo: '/team/kashif.jpeg',
-    bio: 'Founder and CEO of 221B Softwares, leading strategy and growth.',
+    bio: 'Marketing manager of 221B Softwares, leading strategy and growth.',
     tech: [
       'node',
       'javascript',
@@ -20,7 +20,7 @@ export const teamMembers: TeamMember[] = [
       'github',
     ],
     socials: [
-      { type: 'fiverr', url: 'https://www.fiverr.com/linskashif' },
+      // { type: 'fiverr', url: 'https://www.fiverr.com/linskashif' },
       { type: 'github', url: 'https://github.com/kashifkhattak' },
       { type: 'linkedin', url: 'https://www.linkedin.com/in/linkskashif/' },
     ],
@@ -52,7 +52,7 @@ export const teamMembers: TeamMember[] = [
       'github',
     ],
     socials: [
-      { type: 'fiverr', url: 'https://www.fiverr.com/huzaifahtariq08' },
+      // { type: 'fiverr', url: 'https://www.fiverr.com/huzaifahtariq08' },
       { type: 'github', url: 'https://github.com/huzaifahtariq28' },
       { type: 'linkedin', url: 'https://www.linkedin.com/in/huzaifahtariq/' },
     ],

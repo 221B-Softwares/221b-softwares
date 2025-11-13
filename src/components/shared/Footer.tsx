@@ -67,19 +67,19 @@ export default function Footer() {
             <li className="flex items-center gap-2">
               <Phone className="text-brand-ink h-4 w-4" />
               <a
-                href="tel:+923368005598"
+                href="tel:+923004171382"
                 className="hover:text-brand-parchment transition"
               >
-                +92 336 8005598
+                +92 300 4171382
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Phone className="text-brand-ink h-4 w-4" />
               <a
-                href="tel:+923004171382"
+                href="tel:+923368005598"
                 className="hover:text-brand-parchment transition"
               >
-                +92 300 4171382
+                +92 336 8005598
               </a>
             </li>
             <li className="flex items-center gap-2">
@@ -92,7 +92,7 @@ export default function Footer() {
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-lg font-semibold">Connect</h3>
           <div className="flex items-center">
-            <a
+            {/* <a
               href="https://www.fiverr.com/linskashif"
               target="_blank"
               rel="noopener noreferrer"
@@ -107,7 +107,7 @@ export default function Footer() {
               className="text-brand-ink hover:text-brand-parchment rounded-full p-2 transition hover:scale-110"
             >
               <SiFiverr className="h-8 w-8" />
-            </a>
+            </a> */}
             <a
               href="https://github.com/221B-Softwares"
               target="_blank"

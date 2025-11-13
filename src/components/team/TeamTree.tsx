@@ -43,7 +43,7 @@ export default function TeamTree() {
 
         <div className="hidden md:block">
           <div className="mb-20 flex justify-center gap-24">
-            <TeamNodeCard member={ceo} />
+            {/* <TeamNodeCard member={ceo} /> */}
             <TeamNodeCard member={cto} />
           </div>
 
