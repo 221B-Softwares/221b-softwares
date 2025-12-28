@@ -27,7 +27,7 @@ export default function ShaheeraBirthday() {
     const calculateTimeLeft = () => {
       const now = new Date()
       const currentYear = now.getFullYear()
-      const birthday = new Date(currentYear, 11, 28, 0, 0, 0)
+      const birthday = new Date(currentYear, 11, 29, 0, 0, 0)
 
       const difference = birthday.getTime() - now.getTime()
 
