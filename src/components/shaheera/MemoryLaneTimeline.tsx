@@ -20,7 +20,7 @@ const timelineEvents: TimelineEvent[] = [
     id: '1',
     date: 'October 9, 2025',
     title: 'Your Profile',
-    description: `First time I saw your picture and your profile, I was literally like bhaiii way out of your league.. idhar sai to haan nahi honi kabhi bhi but chalo let's see maybe.. 🥺`,
+    description: `First time I saw your picture and your profile, I was literally like bhaiii way out of my league.. idhar sai to haan nahi honi kabhi bhi but chalo let's see maybe.. 🥺`,
     images: [
       '/shaheera/memory_1.PNG',
       '/shaheera/memory_2.PNG',
@@ -59,7 +59,7 @@ const timelineEvents: TimelineEvent[] = [
   {
     id: '5',
     date: 'November 10, 2025',
-    title: `THE Call and bichaare wings`,
+    title: `THE CALL and bichaare wings`,
     description: `This day was special for me apne dil mai I was yours usi din sai.. bas aap is din khush nahi thi.. 🥲`,
     images: ['/shaheera/memory_12.png'],
   },
